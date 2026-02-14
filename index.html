@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine, Sabreena?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+    <main class="hero">
+      <div class="floating-hearts" aria-hidden="true">
+        <span>💖</span>
+        <span>💗</span>
+        <span>💕</span>
+        <span>💞</span>
+        <span>🫶</span>
+      </div>
+
+      <section class="card" aria-label="Valentine message">
+        <p class="tag">For my forever favorite person</p>
+        <h1>Sabreena, will you be my Valentine?</h1>
+        <p class="message">
+          Every day with you feels sweeter than brown sugar boba and warmer than a heart full of hugs.
+          You are my favorite hello, my happiest place, and my always.
+        </p>
+
+        <div class="boba-cups" aria-hidden="true">
+          <div class="cup">
+            <span class="straw"></span>
+            <span class="lid"></span>
+            <span class="tea"></span>
+            <span class="pearls"></span>
+          </div>
+          <div class="cup">
+            <span class="straw"></span>
+            <span class="lid"></span>
+            <span class="tea"></span>
+            <span class="pearls"></span>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="yesBtn" type="button" class="love-btn">Yes! 💘</button>
+          <button id="hellYesBtn" type="button" class="love-btn love-btn-alt">Hell Yea Baby!!! 🔥💖</button>
+        </div>
+        <p id="secret" class="secret" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
